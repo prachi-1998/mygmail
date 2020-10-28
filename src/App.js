@@ -87,7 +87,7 @@ const App = () => {
         {isAuthorize ? (
           <Main />
         ) : (
-          <SignIn  handleAuthClick={handleAuthClick} />
+          <SignIn Loading={loading} handleAuthClick={handleAuthClick} />
         )}
       </ThemeProvider>
     </EmailState>
